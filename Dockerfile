@@ -5,3 +5,5 @@
 FROM hardikparwana/cuda116desktop:v1
 RUN apt install -y python3-pip
 RUN pip3 install numpy torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+RUN pip3 install notebook
+
